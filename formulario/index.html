@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Formulario</title>
+</head>
+
+
+<body>
+	
+	<header>	
+	</header>
+<!-- conteneodr total -->
+
+	<form id="formulario">
+		<div id="clearfix contenedor_gral"> 
+			<div class="titulo_gral">
+				<h2>Datos Personales</h2>
+			</div>
+			<div>
+				<div class="clearfix contenedor_fields_rows">
+					<div class="contenedor_field_row">
+						<div class="contenedor_label">						
+							<label for="nombre">Nombre:</label>
+						</div>		
+						<div class="contenedor_input">														
+							<input  type="text" name="nombre" id="nombre"/>
+						</div>		
+					</div>
+
+					<div class="contenedor_field_row">
+						<div class="contenedor_label">						
+							<label for="apellido">Apellido:</label>
+						</div>		
+						<div class="contenedor_input">														
+							<input  type="text" name="apellido" id="apellido"/>
+						</div>		
+					</div>
+					<div class="contenedor_field_row">
+						<div class="contenedor_label">						
+							<label>Sexo:</label>
+						</div>	
+						<div class="contenedor_input">		
+							<label>M</label>			
+							<input  type="radio" name="sexo" value="masculino" id="sexo"/>						
+							<label>F</label>			
+							<input type="radio" name="sexo" value="femenino" id="sexo"/>	
+						</div>								
+					</div>					
+
+				</div>				
+			</div>
+			<div class="titulo_gral">
+				<h2>Datos Facturación</h2>
+			</div>		
+			<div>
+				<div class="clearfix contenedor_fields_rows">
+					<div class="contenedor_field_row">
+						<div class="contenedor_label">						
+							<label for="nombre">Domicilio:</label>
+						</div>		
+						<div class="contenedor_input">														
+							<input  type="text" name="nombre" id="nombre"/>
+						</div>		
+					</div>		
+					<div class="clearfix contenedor_submit">
+						<input type="submit" name="domicilio" id="domicilio" value="Enviar"/>						
+					</div>					
+				</div>				
+			</div>				
+
+		</div>	
+	</form>
+
+</body>
+</html>

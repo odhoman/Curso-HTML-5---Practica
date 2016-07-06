@@ -1,0 +1,241 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 
+
+----------------------------------------------
+			Nuestros estilos 
+----------------------------------------------
+
+*/
+
+/* Contenedor General*/
+#cont_total {
+	width: 100%;
+}
+
+/* Div Contenedor de la bandera */
+
+#img{
+    width: 50%;
+    display: inline;
+    float: left;
+    text-align: center;
+    height: 110px;
+    background-color: #b9976e;
+}
+
+/* Div Contenedor del texto */
+#texto{	
+	display:inline-block;
+	float:left;
+	clear:both;
+    background-color: #9d8fbb;	
+}
+
+
+#bandera{
+	margin-top: 15px;
+}
+
+
+@media (min-width: 1280px){
+
+	/* Div Contenedor del titulo */
+	#titulo{
+	    width: 50%;
+	    display: inline;
+	    float: left;
+	    text-align: center;
+	    height: 110px;
+	    background-color: #2d7d71;
+	}
+
+	/* Estilo de la imagen de la bandera */
+	#titulo_pais{
+	    display: inline-block;
+	    vertical-align: middle;
+	    margin-top: 40px;
+	    font-size: 2em;
+	}
+
+	#descripcion{
+	    text-align: justify;
+	    background-color: #9d8fbb;
+	    margin: 1.4%;
+	    font-size: 1em;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+	/* Div Contenedor del titulo */
+	#titulo{
+	    width: 50%;
+	    display: inline;
+	    float: left;
+	    text-align: center;
+	    height: 110px;
+	    background-color: #2d7d71;
+	}
+
+	/* Estilo de la imagen de la bandera */
+	#titulo_pais{
+	    display: inline-block;
+	    vertical-align: middle;
+	    margin-top: 40px;
+	    font-size: 2em;
+	}
+
+	#descripcion{
+	    text-align: justify;
+	    background-color: #9d8fbb;
+	    margin: 1.7%;
+	    font-size: 1em;
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	#img{
+	    width: 100%;
+	    display: inline;
+	    float: left;
+	    text-align: center;
+	    height: 110px;
+	    background-color: #b9976e;
+	}
+
+	/* Div Contenedor del titulo */
+	#titulo{
+	    width: 100%;
+	    display: inline;
+	    float: left;
+	    text-align: center;
+	    height: 110px;
+	    background-color: #2d7d71;
+	}
+
+	/* Estilo de la imagen de la bandera */
+	#titulo_pais{
+	    display: inline-block;
+	    vertical-align: middle;
+	    margin-top: 40px;
+	    font-size: 2em;
+	}
+
+	#descripcion{
+	    text-align: justify;
+	    background-color: #9d8fbb;
+	    margin: 3%;
+	    font-size: 1em;
+	}
+
+}
+
+@media (max-width: 319px) {
+
+	#img{
+	    width: 100%;
+	    display: inline;
+	    float: left;
+	    text-align: center;
+	    height: 110px;
+	    background-color: #b9976e;
+	}
+
+	/* Div Contenedor del titulo */
+	#titulo{
+	    width: 100%;
+	    display: inline;
+	    float: left;
+	    text-align: center;
+	    height: 110px;
+	    background-color: #2d7d71;
+	}
+
+	/* Estilo de la imagen de la bandera */
+	#titulo_pais{
+	    display: inline-block;
+	    vertical-align: middle;
+	    margin-top: 45px;
+	    font-size: 1.5em;
+	}
+
+	#descripcion{
+	    text-align: justify;
+	    background-color: #9d8fbb;
+	    margin: 5%;
+	    font-size: 1em;
+	}
+
+}
